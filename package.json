@@ -1,0 +1,26 @@
+{
+    "dependencies": {
+        "uuid": "^10.0.0"
+    },
+    "name": "arno",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/itztiva/Arno.git"
+    },
+    "keywords": [
+        "arno"
+    ],
+    "author": "itztiva",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/itztiva/Arno/issues"
+    },
+    "homepage": "https://github.com/itztiva/Arno#readme",
+    "description": ""
+}
