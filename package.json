@@ -14,7 +14,7 @@
         "url": "git+https://github.com/itztiva/Arnos.git"
     },
     "keywords": [
-        "arnos"
+        "typescript", "validator", "type", "schema", "object"
     ],
     "author": "itztiva",
     "license": "ISC",
