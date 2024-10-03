@@ -38,6 +38,7 @@ export class Arnos {
 
     return {
       isValid: Object.keys(errors).length === 0,
+      data: data,
       errors,
     };
   }
