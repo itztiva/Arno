@@ -12,7 +12,7 @@ import {
   Url,
 } from "../validators";
 
-export class Arno {
+export class Arnos {
   private schema: { [key: string]: IValidator };
 
   constructor(schema: { [key: string]: IValidator }) {

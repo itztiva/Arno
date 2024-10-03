@@ -2,7 +2,7 @@
     "dependencies": {
         "uuid": "^10.0.0"
     },
-    "name": "arno",
+    "name": "arnos",
     "version": "1.0.0",
     "main": "index.ts",
     "devDependencies": {},
@@ -11,16 +11,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/itztiva/Arno.git"
+        "url": "git+https://github.com/itztiva/Arnos.git"
     },
     "keywords": [
-        "arno"
+        "arnos"
     ],
     "author": "itztiva",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/itztiva/Arno/issues"
+        "url": "https://github.com/itztiva/Arnos/issues"
     },
-    "homepage": "https://github.com/itztiva/Arno#readme",
+    "homepage": "https://github.com/itztiva/Arnos#readme",
     "description": ""
 }

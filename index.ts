@@ -1,17 +1,17 @@
-import { Arno } from "./core/Arno";
+import { Arnos } from "./core/Arnos";
 
-const valid = new Arno({
-    username: Arno.string(),
-    age: Arno.number(),
-    email: Arno.email(),
-    isActive: Arno.boolean(),
-    tags: Arno.array(Arno.string()).optional(),
-    profile: Arno.object({
-        bio: Arno.string(),
-        website: Arno.url(),
+const valid = new Arnos({
+    username: Arnos.string(),
+    age: Arnos.number(),
+    email: Arnos.email(),
+    isActive: Arnos.boolean(),
+    tags: Arnos.array(Arnos.string()).optional(),
+    profile: Arnos.object({
+        bio: Arnos.string(),
+        website: Arnos.url(),
     }).optional(),
-    joinDate: Arno.date(),
-    status: Arno.enum('active', 'inactive', 'pending'),
+    joinDate: Arnos.date(),
+    status: Arnos.enum('active', 'inactive', 'pending'),
 });
 
 const result = valid.validate({
