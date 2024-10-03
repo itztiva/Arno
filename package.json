@@ -3,7 +3,7 @@
         "uuid": "^10.0.0"
     },
     "name": "arnos",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "main": "index.ts",
     "devDependencies": {},
     "scripts": {
